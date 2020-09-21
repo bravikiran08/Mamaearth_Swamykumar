@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-09-17T10:44:42 IST" name="Suite" finished-at="2020-09-17T10:45:17 IST" duration-ms="34984">
+    <groups>
+    </groups>
+    <test started-at="2020-09-17T10:44:42 IST" name="GridTesting" finished-at="2020-09-17T10:45:17 IST" duration-ms="34984">
+      <class name="QAclass.Information_Commands">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:QAclass.Information_Commands@78b729e6]" started-at="2020-09-17T10:44:56 IST" name="beforeTest" finished-at="2020-09-17T10:45:05 IST" duration-ms="8954" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method signature="gmail()[pri:0, instance:QAclass.Information_Commands@78b729e6]" started-at="2020-09-17T10:45:17 IST" name="gmail" finished-at="2020-09-17T10:45:17 IST" duration-ms="54" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- gmail -->
+        <test-method signature="google_image()[pri:0, instance:QAclass.Information_Commands@78b729e6]" started-at="2020-09-17T10:45:17 IST" name="google_image" finished-at="2020-09-17T10:45:17 IST" duration-ms="55" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- google_image -->
+        <test-method signature="searchbutton()[pri:0, instance:QAclass.Information_Commands@78b729e6]" started-at="2020-09-17T10:45:17 IST" name="searchbutton" finished-at="2020-09-17T10:45:17 IST" duration-ms="38" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchbutton -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:QAclass.Information_Commands@78b729e6]" started-at="2020-09-17T10:45:17 IST" name="afterTest" finished-at="2020-09-17T10:45:17 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- QAclass.Information_Commands -->
+      <class name="Grid.Cross">
+        <test-method signature="VerifyTitlepage(java.lang.String)[pri:0, instance:Grid.Cross@6b4a4e18]" started-at="2020-09-17T10:45:05 IST" name="VerifyTitlepage" finished-at="2020-09-17T10:45:11 IST" duration-ms="5404" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyTitlepage -->
+      </class> <!-- Grid.Cross -->
+      <class name="QAclass.Alerts">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:QAclass.Alerts@501edcf1]" started-at="2020-09-17T10:44:42 IST" name="beforeTest" finished-at="2020-09-17T10:44:56 IST" duration-ms="14210" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method signature="alerts()[pri:0, instance:QAclass.Alerts@501edcf1]" started-at="2020-09-17T10:45:11 IST" name="alerts" finished-at="2020-09-17T10:45:17 IST" duration-ms="6184" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- alerts -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:QAclass.Alerts@501edcf1]" started-at="2020-09-17T10:45:17 IST" name="afterTest" finished-at="2020-09-17T10:45:17 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- QAclass.Alerts -->
+    </test> <!-- GridTesting -->
+  </suite> <!-- Suite -->
+</testng-results>

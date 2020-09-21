@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="GridTesting(failed)">
+    <classes>
+      <class name="Grid.Cross">
+        <methods>
+          <include name="VerifyTitlepage"/>
+        </methods>
+      </class> <!-- Grid.Cross -->
+      <class name="QAclass.Information_Commands">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="google_image"/>
+          <include name="searchbutton"/>
+          <include name="gmail"/>
+          <include name="afterTest"/>
+        </methods>
+      </class> <!-- QAclass.Information_Commands -->
+      <class name="QAclass.Alerts">
+        <methods>
+          <include name="beforeTest"/>
+          <include name="afterTest"/>
+          <include name="alerts"/>
+        </methods>
+      </class> <!-- QAclass.Alerts -->
+    </classes>
+  </test> <!-- GridTesting(failed) -->
+</suite> <!-- Failed suite [Suite] -->

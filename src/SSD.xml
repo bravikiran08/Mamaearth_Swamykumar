@@ -1,0 +1,27 @@
+<suite name="ABCDSelenium">
+	<test name="test">
+
+		<classes>
+	
+			<class name="QAclass.Alerts">
+				<methods>
+				<include name="alerts"/>
+				</methods>
+				</class>
+					
+				
+					<class name="QAclass.Screenshot">
+				<methods>
+				<include name="alerts"/>
+				</methods>
+				</class>
+					
+				<class name="HighlevelBases.Main">
+				<methods>
+				</methods>
+				</class>
+				
+		</classes>
+	
+	</test>
+</suite>
